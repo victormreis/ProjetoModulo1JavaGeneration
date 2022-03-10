@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+
+public class Remedio extends Produto {
+
+	public Remedio (String nome) {
+	
+		
+	}
+	
+	
+	
+	
+	ArrayList<String>remedios = new ArrayList<>();
+
+	@Override
+	public void excluir() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void adicionar() {
+		this.remedios.toString() ;
+
+	}
+
+}

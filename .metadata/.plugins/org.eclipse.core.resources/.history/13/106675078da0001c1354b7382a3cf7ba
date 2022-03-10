@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+public class Remedio extends Produto {
+
+	public Remedio (String nome) {
+	
+		
+	}		
+	
+	
+	/*@Override
+	public void excluir() {
+		
+
+	}
+
+	@Override
+	public void adicionar() {
+		
+
+	}
+*/
+}

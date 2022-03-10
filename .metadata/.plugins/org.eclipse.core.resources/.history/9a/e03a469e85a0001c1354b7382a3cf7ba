@@ -1,0 +1,17 @@
+public class Remedio extends Produto {
+
+	private String tipo;
+
+	@Override
+	public void excluir() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void adicionar() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

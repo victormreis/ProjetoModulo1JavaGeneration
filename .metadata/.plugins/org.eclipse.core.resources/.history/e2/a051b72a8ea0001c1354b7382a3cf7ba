@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+
+public class Remedio implements Produto {
+
+	public Remedio (String nome) {
+			
+	}		
+	
+	
+}

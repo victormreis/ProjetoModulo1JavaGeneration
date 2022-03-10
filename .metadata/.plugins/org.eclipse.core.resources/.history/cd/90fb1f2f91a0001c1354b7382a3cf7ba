@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+
+public class Remedio implements Produto {
+	
+	private String nome;
+	
+	
+	
+	@Override
+	public void excluir() {
+		System.out.println("Produtos excluidos com sucesso!\n");
+
+	}
+
+	@Override
+	public void adicionar() {
+		
+		System.out.println("Produtos Cadastrados com sucesso!\n");
+	}
+
+	@Override
+	public void atualizar() {
+		System.out.println("Produtos atualizados com sucesso!\n");
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+public abstract class Produto {
+
+	private String nome;
+
+	public abstract void excluir();
+
+	public abstract void adicionar();
+
+}

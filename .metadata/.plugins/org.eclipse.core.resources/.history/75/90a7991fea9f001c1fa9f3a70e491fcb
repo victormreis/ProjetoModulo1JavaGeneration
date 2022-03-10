@@ -1,0 +1,32 @@
+
+public class Cliente extends Pessoa {
+	
+	
+	private String codCliente;
+	
+	public  Cliente(String cod, String nome)
+	{
+		this.codCliente = cod;
+		 super.setNome(nome);
+		
+	}
+	
+	
+	public String getCodCliente() {
+		return codCliente;
+	}
+
+
+	public void setCodCliente(String codCliente) {
+		this.codCliente = codCliente;
+	}
+
+
+	public void comprar() {
+		
+	}
+	
+	public void devolver() {
+		
+	}
+}

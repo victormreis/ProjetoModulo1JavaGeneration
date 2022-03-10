@@ -1,0 +1,22 @@
+
+public class Remedio implements Produto{
+
+	private String nome;
+
+	@Override
+	public void excluir() {
+		System.out.println("Produto Excluido!");
+		
+	}
+
+	@Override
+	public void adicionar() {
+		System.out.println("Produto Adicionar!");
+		
+		
+	}
+	
+	
+	
+
+}

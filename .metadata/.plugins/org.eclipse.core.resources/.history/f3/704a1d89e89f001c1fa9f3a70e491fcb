@@ -1,0 +1,14 @@
+
+public class Funcionario extends Pessoa {
+	
+	private String codFunc;
+	private String cargo;
+	
+	
+	public void atendender() {
+		System.out.println("Atendendo o cliente!");
+	}
+	
+	
+	
+}

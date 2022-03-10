@@ -1,0 +1,34 @@
+
+public class Funcionario extends Pessoa {
+	
+	private String codFunc;
+	private String cargo;
+	
+	
+	public void atendender() {
+		System.out.println("Atendendo o cliente!");
+	}
+
+
+	public String getCodFunc() {
+		return codFunc;
+	}
+
+
+	public void setCodFunc(String codFunc) {
+		this.codFunc = codFunc;
+	}
+
+
+	public String getCargo() {
+		return cargo;
+	}
+
+
+	public void setCargo(String cargo) {
+		this.cargo = cargo;
+	}
+	
+	
+	
+}

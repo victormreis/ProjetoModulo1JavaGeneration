@@ -1,0 +1,7 @@
+public interface Produto {	
+
+	public  void excluir();
+
+	public abstract void adicionar();
+
+}
