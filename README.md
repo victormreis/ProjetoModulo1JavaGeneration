@@ -30,7 +30,7 @@ Aplicar os conceitos de POO vistos em aulas durante o primeiro módulo do progra
 
 [Thaís Alline Dias](https://github.com/tha-alline)
 
-[Yago jose](https://github.com/yagorajose)
+[Yago Almeida](https://github.com/yagorajose)
 
 
 
