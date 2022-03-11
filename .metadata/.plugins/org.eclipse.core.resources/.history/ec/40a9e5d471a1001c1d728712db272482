@@ -22,7 +22,7 @@ public class Main {
 			while(continuar == true) {
 				System.out.println("Escolha a opção Desejada: \n[1]Iniciar Rotina de compra\n[2]Cadastrar produtos\n[3]Consultar produtos\n[4]Atualizar Estoque\n[5]Excluir produtos\n[6] Sair");
 				num = read.nextInt();				
-				if(num > 0 && num  < 7) {
+				if(num == 1 || num ==2 || num == 3 || num ==4 || num == 5 || num == 6) {
 					if(num == 1) {
 						System.out.println("Cliente "+c1.getNome()+ " Acaba de entrar na loja!");
 						c1.falar();
