@@ -49,8 +49,7 @@ public class Main {
 					}
 					else if (num == 4) {
 						remedios.set(2, "Epocler");
-						rem.atualizar();
-						
+						rem.atualizar();						
 					}
 					else if (num == 5) {
 						remedios.remove(2);
@@ -72,12 +71,7 @@ public class Main {
 		}catch (InputMismatchException erro ) {
 			System.out.println("Você digitou uma opção invalida por favor digite um número valido para continuar");
 		
-		}catch (IndexOutOfBoundsException erro ) {
-			System.out.println("Não é possivel atualizar ou excluir itens do estoque antes de cadastrar itens!");
-		
-		}
-		
-		System.out.println("Programa Encerrado.");
+		}	System.out.println("Programa Encerrado.");
 		
 							
 	}

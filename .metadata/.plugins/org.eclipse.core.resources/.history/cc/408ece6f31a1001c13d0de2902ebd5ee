@@ -49,8 +49,7 @@ public class Main {
 					}
 					else if (num == 4) {
 						remedios.set(2, "Epocler");
-						rem.atualizar();
-						
+						rem.atualizar();						
 					}
 					else if (num == 5) {
 						remedios.remove(2);
