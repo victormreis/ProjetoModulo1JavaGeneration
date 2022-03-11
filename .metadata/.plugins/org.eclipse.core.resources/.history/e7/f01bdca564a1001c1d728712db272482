@@ -8,7 +8,7 @@ public class Funcionario extends Pessoa {
 		this.codFunc = codigo;
 		super.setNome(nome);
 	}
-	@Override
+
 	public void falar() {
 		System.out.println(" está atendendo o cliente!");
 	}

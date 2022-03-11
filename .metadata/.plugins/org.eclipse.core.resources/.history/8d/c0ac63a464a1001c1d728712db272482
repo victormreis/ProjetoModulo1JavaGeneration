@@ -27,7 +27,7 @@ public class Main {
 						System.out.println("Cliente "+c1.getNome()+ " Acaba de entrar na loja!");
 						c1.falar();
 						System.out.print("o "+func1.getCargo()+" "+func1.getNome());
-						func1.falar(); 
+						func1.atendender(); 
 						c1.comprar();
 					}
 					else if (num == 2) {
@@ -44,7 +44,7 @@ public class Main {
 						}
 					else if (num == 3) {
 						System.out.println("Remedios disponiveis: ");
-						Collections.sort(remedios);						
+						Collections.sort(remedios);
 						System.out.println(remedios);
 					}
 					else if (num == 4) {

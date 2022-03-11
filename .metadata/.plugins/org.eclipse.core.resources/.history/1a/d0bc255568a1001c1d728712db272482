@@ -44,7 +44,7 @@ public class Main {
 						}
 					else if (num == 3) {
 						System.out.println("Remedios disponiveis: ");
-						Collections.sort(remedios);						
+						Collections.sort(remedios);
 						System.out.println(remedios);
 					}
 					else if (num == 4) {
